@@ -1,5 +1,5 @@
 darkgray: #1c1e26
-orange: #d1a701
+orange: #dja701
 yellow: #fdeb37
 pink?: #bdac9c
 lightbrown: #9d815b

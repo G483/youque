@@ -10,4 +10,9 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname+'/index.html'))
 })
 
+app.get('/mockup', (req, res) => {
+  res.contentType('text/html')
+  res.sendFile(path.join(__dirname+'/mockup.html'))
+})
+
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
