@@ -5,6 +5,7 @@ body {
 }
 
 .separator {
+    font-family: 'Great Vibes', cursive;
     font-size: 60px;
     width: 100%;
     height: 60px;
@@ -15,18 +16,27 @@ body {
 }
 
 .navbar {
-    background-color: #fdeb37;
+    background-color: #1c1e26;
     color: #1c1e26;
+    border-bottom: 1px solid #fdeb37;
 }
 
 .navbar a {
-    color: #1c1e26;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fdeb37 !important;
+    font-weight: bold;
+}
+
+.navbar-brand > span {
+    color: #9d815b;
 }
 
 .boxes {
     width: 60%;
     margin: 0 auto;
-    display: none;
 }
 
 .boxes:after {
@@ -69,6 +79,8 @@ div.sinco {
 }
 
 .tagline {
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
     margin-bottom: 25px;
     color: #fdeb37;
     text-align: center;
@@ -95,6 +107,44 @@ div.sinco {
     border: 0;
 }
 
+.fas {
+    color: #b9b9b9;
+}
+
+#search::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #b9b9b9;
+}
+#search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #b9b9b9;
+   opacity:  1;
+}
+#search::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #b9b9b9;
+   opacity:  1;
+}
+#search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #b9b9b9;
+}
+#search::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #b9b9b9;
+}
+
+#search::placeholder { /* Most modern browsers support this now. */
+   color:    #b9b9b9;
+}
+
+/* SEARCH */
+#search {
+    background-color: #1c1e26;
+    border: 1px solid #fdeb2f;
+    color: #b9b9b9;
+}
+
+.input-group-text {
+    background-color: #1c1e26;
+    border: 1px solid #fdeb2f;
+}
+
 hr {
     border-color: #fdeb37; 
 }
@@ -115,3 +165,5 @@ hr {
     background-color: #bdac9c;
     height: 600px;
 }
+
+

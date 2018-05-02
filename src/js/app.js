@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import ShoppingList from "./components/ShoppingList.js"; 
+import SearchWrap from './SearchWrap';
 
-<ShoppingList name="Kemal" />
-
-const wrapper = document.getElementById("root");
-wrapper ? ReactDOM.render(<ShoppingList/>, wrapper) : false;
+const wrapper = document.getElementById("app");
+wrapper ? ReactDOM.render(<SearchWrap/>, wrapper) : false;
 
